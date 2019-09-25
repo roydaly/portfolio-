@@ -1,3 +1,21 @@
-.skills {
-    color: white;
-}
+.container {
+    position: relative;
+  }
+
+  .skill-icons { 
+    top: 5%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color:black;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+  }
+
+  .skill-icons-img {
+    height: 80px; 
+    width: 80px; 
+    display: inline-block;
+  }

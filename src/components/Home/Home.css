@@ -1,0 +1,42 @@
+.container {
+  position: relative;
+}
+
+.terminal {
+  position: absolute;
+    top: 5%;
+    left: 6%;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+}
+
+  .typewriter {
+    font-size: 35px;
+    font-weight: bold;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: auto;
+    display: inline-block;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 5s steps(100, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { max-width: 0 }
+    to { max-width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }

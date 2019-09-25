@@ -1,3 +1,34 @@
-.contact {
-    color: white;
+.container {
+    position: relative;
+  }
+
+  .icons { 
+      height: 60px; 
+      width: 60px; 
+      border: 10px solid black; 
+      background-color: white; 
+    }
+
+  .text {
+    text-align: left;
+    font-size: 35px;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    height: auto;
+    width: 50%;
+    display: inline-block;
 }
+
+.contact:link, .contact:visited {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .contact:hover, .contact:active {
+    background-color: dodgerblue;
+  }
